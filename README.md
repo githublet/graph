@@ -1,7 +1,7 @@
 # graph
 Simple (directed) graph library.  NOTE: This library is building for gatk...
 
-我在想能不能加一些中文。。。
+满足图论中点巡点,增加点，减少点，为GATK设计的，因为GATK是java代码，效率太低，所以用纯C重新编写了，可以用来做一些数据结构，代码无坑！
 
 那就简单描述下吧：首先点的id是从0递增的，所以设定了一个mod取余操作，作为一个点的hash值；
 
